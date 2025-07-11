@@ -151,16 +151,56 @@ main{
 .card-body h5{
     color: rgba(37, 36, 50, 0.3); 
 }
+/* form css  */
+.form-flex{
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 7% auto;
+    padding-bottom: 5%;
+    align-items: center;
+}
+.form-flex h1{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'raleway';
+    width: 528px;
+}
+.form-1{
+    padding: 20px 0 20px 20px ;
+    width: 477px;
+    font-size: 20px;
+    margin: 15px 0 20px ;
+    border-radius: 10px;
+    border: 1px solid rgb(231, 226, 226);
+}
+.form-2{
+    padding: 20px 0 70px 20px ;
+    width: 477px;
+    font-size: 20px;
+    margin: 15px 0 20px ;
+    border-radius: 10px;
+    border: 1px solid rgb(231, 226, 226);
+}
+.form label{
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+   
+}
+.form-btn{
+    width: 497px;
+    padding: 17px 0;
+}
 /* footer css  */
 footer{
     background-color: white;
     text-align: center;
-    padding: 3% 0;
   
 }
 footer div{
     width: 531px;
-    margin: 20px auto;
+    margin: 0px auto;
 }
 footer h3{
     font-size: 80px;
